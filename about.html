@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="Libra_studios_logo.png">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 <style>
     
@@ -15,9 +15,24 @@
         overflow-x: hidden;
         margin: 0;
         height: 100vh;
-     }
+      }
     .navbar-blur {
         backdrop-filter: blur(10px); 
+    }
+    .icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;              
+    justify-content: center;     
+    align-items: center;   
+    text-align: center;
+    background-color: grey;
+    }
+    .icon .icn {
+        color: white;
+        font-size: 20px;
     }
 
 </style>
@@ -42,92 +57,144 @@
                 <!-- For Phone View -->
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 bg-dark p-3 rounded-3 d-lg-none" style="font-family: 'Audiowide', sans-serif; font-size: 0.8rem;">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="#home"><i class="fa-solid fa-house me-2"></i>HOME</a>
+                        <a class="nav-link active text-light" href="index.html"><i class="fa-solid fa-house me-2"></i>HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#about"><i class="fas fa-user me-2"></i>ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#portfolio"><i class="fa-solid fa-images me-2"></i>PORTFOLIO</a>
+                        <a class="nav-link text-light" href="portfolio.html"><i class="fa-solid fa-images me-2"></i>PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#service"><i class="fas fa-code me-2"></i>SERVICES</a>
+                        <a class="nav-link text-light" href="service.html"><i class="fas fa-code me-2"></i>SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#contact"><i class="fa-solid fa-envelope me-2"></i>CONTACT</a>
+                        <a class="nav-link text-light" href="contact.html"><i class="fa-solid fa-envelope me-2"></i>CONTACT</a>
                     </li>
                 </ul>
 
                 <!-- For Deskstop view -->
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-none d-lg-flex" style="font-family: 'Audiowide', sans-serif; font-size: 0.8rem;">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" href="#home"><i class="fa-solid fa-house me-2"></i>HOME</a>
+                        <a class="nav-link active text-light" href="index.html"><i class="fa-solid fa-house me-2"></i>HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="#about"><i class="fas fa-user me-2"></i>ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#portfolio"><i class="fa-solid fa-images me-2"></i>PORTFOLIO</a>
+                        <a class="nav-link text-light" href="portfolio.html"><i class="fa-solid fa-images me-2"></i>PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#service"><i class="fas fa-code me-2"></i>SERVICES</a>
+                        <a class="nav-link text-light" href="service.html"><i class="fas fa-code me-2"></i>SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#contact"><i class="fa-solid fa-envelope me-2"></i>CONTACT</a>
+                        <a class="nav-link text-light" href="contact.html"><i class="fa-solid fa-envelope me-2"></i>CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="row justify-content-center py-5" style=" background: linear-gradient(145deg, rgba(70,6,69,1) 36%, rgba(255,84,80,1) 81%);" id="home">
+    <div class="row justify-content-center py-1" style=" background: linear-gradient(145deg, rgba(70,6,69,1) 36%, rgba(255,84,80,1) 81%);" id="about">
         <div class="col-lg-10">
             <div class="text-center my-3">
-                <h3 class="text-white" style="font-family: 'Audiowide', sans-serif;">ABOUT ME</h3>
+                <h3 class="text-white mt-5" style="font-family: 'Audiowide', sans-serif;"><br>ABOUT ME</h3>
                 <div class="mt-2 m-auto bg-dark" style="width:30%; padding: 2px;"></div><br>
-                <p class="text-white" style="font-family:Candara;">"Experienced web developer specializing in creating innovative, reponsive, and user-centric digital solutions."</p>
+                <p class="text-white" style="font-family: 'Open Sans', sans-serif;">"Experienced web developer specializing in creating innovative, reponsive, and user-centric digital solutions."</p>
             </div>
         </div>
-
+    </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary row">
             <div class="container-fluid col-10">
                 <ol class="breadcrumb me-auto mb-2 mt-2 mb-lg-10">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item" style="font-family: 'Audiowide', sans-serif;font-size: 0.8rem;"><a href="#">HOME</a></li>
+                    <li class="breadcrumb-item active" style="font-family: 'Audiowide', sans-serif;font-size: 0.8rem;" aria-current="page">ABOUT ME</li>
                 </ol>
             </div>
         </nav>
-
-
+    <div class="row justify-content-center" style=" background: linear-gradient(100deg, rgba(70,6,69,1) 10%, rgba(255,84,80,1) 81%);" id="home">
         <div class="container-fluid">
-        <div class="row">
-            <!-- Side Navbar -->
-            <nav class="col-md-3 col-sm-12 bg-dark text-white py-3" style="height: 100vh;">
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2">
-                        <a class="nav-link text-white" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link text-white" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link text-white" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item mb-2">
-                        <a class="nav-link text-white" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- Main Content -->
-            <div class="col-md-9 col-sm-12 py-3">
-                <h4 class="text-center">Main Content Area</h4>
-                <p>This is where your main content will go. Add more sections and styling as needed.</p>
+            <div class="row">
+                <nav class="col-md-3 col-sm-12 bg-dark text-white py-3 text-center" style="height: 100vh;">
+                    <div class="mb-4 mt-4">
+                        <img src="Profile pic.png" alt="Profile Picture" style="width: 140px; height: 140px; border-radius: 50%; border: 2px solid white;">
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a href="https://www.linkedin.com/in/bonnel-jhon-i-catipay-07023533b" style="margin-right: 15px;" class="icon text-decoration-none"><i class="fa-brands fa-linkedin-in icn"></i></a>
+                        <a href="https://www.facebook.com/bonneljhon.ignaciocatipay.24" style="margin-right: 15px;" class="icon text-decoration-none"><i class="fa-brands fa-facebook-f icn"></i></a>
+                        <a href="https://github.com/Yeyebonnel" style="margin-right: 15px;" class="icon text-decoration-none"><i class="fa-brands fa-github icn"></i></a>
+                        <a href="mailto:bonneljhoni@gmail.com" style=" " class="icon text-decoration-none"><i class="fa-regular fa-envelope icn"></i></a>       
+                    </div><br>
+                    <a class="nav-link text-white" style="font-family: 'Audiowide', sans-serif;font-size: 1.10rem;" href="#">BONNEL JHON I. CATIPAY</a>
+                    <p style="font-family: 'Open Sans', sans-serif;font-size: 0.7rem;">FRONT-END DEVELOPER</p>
+                    <ul class="nav flex-column mt-5">
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white" style="font-family: 'Audiowide', sans-serif;font-size: 0.8rem;" href="#home">SUMMARY</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white" style="font-family: 'Audiowide', sans-serif;font-size: 0.8rem;" href="#services">SKILLS</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a class="nav-link text-white" style="font-family: 'Audiowide', sans-serif;font-size: 0.8rem;" href="#projects">PORTFOLIO</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="col-md-9 col-sm-10 py-4 p-4 ">
+                    <p class="text-white" style="text-align: center;">I’m <span class="text-warning">Bonnel Jhon</span>,  a passionate Front-End Developer who specializes in building responsive, interactive, and user-friendly websites that deliver an exceptional experience across all devices. With a solid foundation in HTML, CSS, JavaScript, and React, I focus on creating clean, modern designs and seamless user interfaces. My goal is to bring your ideas to life with intuitive, high-performance web solutions.</p><br>
+                    <h4 class="text-center text-white" style="font-family: 'Audiowide', sans-serif;font-size: 1.6rem;">SKILLS</h4>
+                    <div class="mt-2 m-auto bg-dark" style="width:30%; padding: 2px;"></div><br>
+                    <div class="row d-flex me-2 justify-content-center">
+                        <div class="col-md-5 mb-3">
+                            <h6 class="text-white" style="font-family: 'Audiowide', sans-serif;font-size: .8rem;">HTML</h6>
+                            <div class="card" style="border-radius: 50px;">
+                                <div class="card-body">
+                                    <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <h6 class="text-white" style="font-family: 'Audiowide', sans-serif;font-size: .8rem;">JAVASCRIPT</h6>
+                            <div class="card" style="border-radius: 50px;">
+                                <div class="card-body">
+                                    <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                        <div class="progress-bar" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-flex me-2 justify-content-center mb-5">
+                        <div class="col-md-5 mb-3">
+                            <h6 class="text-white" style="font-family: 'Audiowide', sans-serif;font-size: .8rem;">CSS</h6>
+                            <div class="card" style="border-radius: 50px;">
+                                <div class="card-body">
+                                    <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                        <div class="progress-bar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 mb-3">
+                            <h6 class="text-white" style="font-family: 'Audiowide', sans-serif;font-size: .8rem;">FIGMA</h6>
+                            <div class="card" style="border-radius: 50px;">
+                                <div class="card-body">
+                                    <div class="progress" role="progressbar" aria-label="Example 1px high" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="text-center text-white" style="font-family: 'Audiowide', sans-serif;font-size: 1.4rem;">WHY CHOOSE ME?</h4>
+                    <div class="mt-2 m-auto bg-dark" style="width:30%; padding: 2px;"></div><br>
+                    <p class="text-white" style="text-align: center;">"I build user-focused, responsive websites that prioritize performance and accessibility. With attention to detail and a passion for clean, maintainable code, I ensure a seamless experience across all devices."</p>
+                </div>
             </div>
-
-
-
+        </div>
     </div>
+
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
